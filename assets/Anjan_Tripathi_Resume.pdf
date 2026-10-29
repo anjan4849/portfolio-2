@@ -1,0 +1,110 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+  /Type /Pages
+  /Kids [3 0 R]
+  /Count 1
+>>
+endobj
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /MediaBox [0 0 595 842]
+  /Contents 4 0 R
+  /Resources <<
+    /Font <<
+      /F1 5 0 R
+      /F2 6 0 R
+    >>
+  >>
+>>
+endobj
+4 0 obj
+<<
+  /Length 780
+>>
+stream
+BT
+/F1 22 Tf
+50 780 Td
+(ANJAN TRIPATHI) Tj
+0 -24 Td
+/F2 11 Tf
+(Aspiring Software Developer | Newton School of Technology | Lucknow, India) Tj
+0 -16 Td
+(Email: anjan.tripathi@example.com | GitHub: github.com/anjantripathi) Tj
+0 -30 Td
+/F1 14 Tf
+(EDUCATION) Tj
+0 -18 Td
+/F2 11 Tf
+(Newton School of Technology - Technology Degree Program (1st Year, 2024 - Present)) Tj
+0 -16 Td
+(Coursework: Programming in Python, Web Technologies, Computational Logic) Tj
+0 -30 Td
+/F1 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -18 Td
+/F2 11 Tf
+(Programming: Python, HTML5, CSS3, C/C++ Foundations) Tj
+0 -16 Td
+(Tools: Git, GitHub, VS Code, Bash/Linux CLI, Chrome DevTools) Tj
+0 -16 Td
+(Concepts: Responsive Layouts, Algorithmic Thinking, Problem Solving) Tj
+0 -30 Td
+/F1 14 Tf
+(PROJECTS) Tj
+0 -18 Td
+/F2 11 Tf
+(PyTask CLI: Python-based terminal productivity and task scheduling utility) Tj
+0 -16 Td
+(StyleCraft Lab: Pure modern CSS layout, Grid & Flexbox component playground) Tj
+0 -16 Td
+(CampusPulse: Newton School of Technology student resource hub prototype) Tj
+0 -30 Td
+/F1 14 Tf
+(INTERESTS & ACTIVITIES) Tj
+0 -18 Td
+/F2 11 Tf
+(Active coder at Newton School of Technology, open-source enthusiast, tech learner.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica-Bold
+>>
+endobj
+6 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000266 00000 n 
+0000001100 00000 n 
+0000001188 00000 n 
+trailer
+<<
+  /Size 7
+  /Root 1 0 R
+>>
+startxref
+1271
+%%EOF

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" fill="none">
+  <defs>
+    <linearGradient id="avatarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="ringGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Ambient background glow -->
+  <circle cx="160" cy="160" r="140" fill="none" stroke="url(#ringGlow)" stroke-width="2" opacity="0.4" />
+  <circle cx="160" cy="160" r="130" fill="url(#avatarBg)" />
+
+  <!-- Geometric developer silhouette / icon -->
+  <g transform="translate(160, 140)">
+    <!-- Head -->
+    <circle cx="0" cy="-30" r="38" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+    <!-- Glasses / Tech Visor -->
+    <rect x="-24" y="-36" width="48" height="12" rx="3" fill="#0f172a" stroke="#34d399" stroke-width="1.5" />
+    <line x1="-2" y1="-30" x2="2" y2="-30" stroke="#34d399" stroke-width="1.5" />
+    <circle cx="-12" cy="-30" r="2.5" fill="#10b981" />
+    <circle cx="12" cy="-30" r="2.5" fill="#10b981" />
+
+    <!-- Shoulders / Torso -->
+    <path d="M-60 48 C-60 12, -30 6, 0 6 C30 6, 60 12, 60 48 Z" fill="#0f172a" stroke="#10b981" stroke-width="2" />
+    <!-- Hoodie V-neck -->
+    <path d="M-15 6 L0 26 L15 6" stroke="#34d399" stroke-width="2" fill="none" />
+  </g>
+
+  <!-- Code Monogram Badge -->
+  <g transform="translate(160, 245)">
+    <rect x="-65" y="-14" width="130" height="28" rx="14" fill="#090d16" stroke="#10b981" stroke-width="1.5" />
+    <text x="0" y="5" fill="#e2e8f0" font-size="12" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">ANJAN TRIPATHI</text>
+  </g>
+
+  <!-- Floating Tech Orbs -->
+  <g transform="translate(65, 80)">
+    <circle cx="0" cy="0" r="18" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="0" y="5" fill="#38bdf8" font-size="11" font-family="monospace" font-weight="700" text-anchor="middle">&lt;css&gt;</text>
+  </g>
+  <g transform="translate(255, 90)">
+    <circle cx="0" cy="0" r="18" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" />
+    <text x="0" y="5" fill="#fbbf24" font-size="11" font-family="monospace" font-weight="700" text-anchor="middle">.py</text>
+  </g>
+</svg>
